@@ -1,0 +1,12 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System;
+
+public static class EventBus 
+{
+    public static Action Run;
+    public static Action Idle;
+    public static Action Jump;
+    public static Action Shoot;
+}
